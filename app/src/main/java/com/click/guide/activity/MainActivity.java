@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements CallBack {
             R.mipmap.icon_guide_point_unselect
     };
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
