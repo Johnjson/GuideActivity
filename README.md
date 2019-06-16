@@ -12,15 +12,14 @@ gradle用法：
 ```
   allprojects {
     repositories {
-			...
-			maven { url 'https://jitpack.io' }
+	      maven { url 'https://jitpack.io' }
 	   }
 	}
 ```
 
 ```
   dependencies {
-	implementation 'com.github.Johnjson:GuideActivity:1.0.0'
+	     implementation 'com.github.Johnjson:GuideActivity:1.0.0'
 	}
 ```
 
