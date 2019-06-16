@@ -10,37 +10,37 @@
 gradle用法：
 
 ```
-	allprojects {
-		repositories {
+  allprojects {
+    repositories {
 			...
 			maven { url 'https://jitpack.io' }
-		}
+	   }
 	}
 ```
 
 ```
   dependencies {
-	        implementation 'com.github.Johnjson:GuideActivity:1.0.0'
+	implementation 'com.github.Johnjson:GuideActivity:1.0.0'
 	}
 ```
 
 maven用法：
 
 ```
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+   <repositories>
+	<repository>
+           <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+	</repository>
+   </repositories>
 ```
 
 ```
-	<dependency>
-	    <groupId>com.github.Johnjson</groupId>
-	    <artifactId>GuideActivity</artifactId>
-	    <version>1.0.0</version>
-	</dependency>
+     <dependency>
+	 <groupId>com.github.Johnjson</groupId>
+	 <artifactId>GuideActivity</artifactId>
+	 <version>1.0.0</version>
+     </dependency>
 
 ```
 
