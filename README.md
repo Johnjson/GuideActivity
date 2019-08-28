@@ -19,7 +19,7 @@ gradle用法：
 
 ```
   dependencies {
-	     implementation 'com.github.Johnjson:GuideActivity:1.0.0'
+	     implementation 'com.github.Johnjson:GuideActivity:v1.0.1'
 	}
 ```
 
@@ -93,6 +93,11 @@ public class MainActivity extends AppCompatActivity implements CallBack {
     @Override
     public void callSlidingLast() {
         Log.e("callSlidingLast", "滑动到最后一个callSlidingLast");
+    }
+    
+    @Override
+    public void onClickLastListener() {
+        Log.e("callSlidingLast", "点击最后一个view");
     }
 
     @Override
