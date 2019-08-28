@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity implements CallBack {
     }
 
     @Override
+    public void onClickLastListener() {
+        Log.e("callSlidingLast", "点击最后一个view");
+    }
+    @Override
     protected void onDestroy() {
         super.onDestroy();
         GuideCustomViews.clear();

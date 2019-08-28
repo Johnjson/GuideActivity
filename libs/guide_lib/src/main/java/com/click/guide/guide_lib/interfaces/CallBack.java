@@ -14,4 +14,7 @@ public interface CallBack {
 
     // 滑动到最后一个
     void callSlidingLast();
+
+    // 点击最后一个
+    void onClickLastListener();
 }

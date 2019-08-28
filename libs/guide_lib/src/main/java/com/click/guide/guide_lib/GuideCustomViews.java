@@ -159,6 +159,12 @@ public class GuideCustomViews extends FrameLayout implements ViewPager.OnPageCha
         if (callBack != null) {
             callBack.callSlidingPosition(i);
             if (i == pageSize - 1) {
+                mPageViews.get(pageSize - 1).setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        callBack.onClickLastListener();
+                    }
+                });
                 callBack.callSlidingLast();
             }
         }
