@@ -1,1 +1,2 @@
-include ':app' , ':libs:guide_lib'
+include ':app'
+//, ':libs:guide_lib'
